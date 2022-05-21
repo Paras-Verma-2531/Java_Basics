@@ -6,6 +6,8 @@ public interface Interf2 {
      */
     String name= " yz";
     int age=19;
+    int y; // since variables are static therefore it should be initialized
     void m1();
     void m2();
 }
+Ddd
