@@ -1,6 +1,6 @@
 package Interfaces_prac.Adapter_class;
 
-public class AdapterClass implements Interface1{
+public  abstract class AdapterClass implements Interface1{
     // Adapter Class is a Class which contains all the methods of interface with only empty body
     public void feature1(){}
     public void feature2(){}
