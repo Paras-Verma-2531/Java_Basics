@@ -6,7 +6,7 @@ public class ArithmeticException {
         try {
             System.out.println(10 / 0);// exception handled
         } catch (Exception e) {
-
+            e.printStackTrace();// gives complete information about the exception
             System.out.println(e);
 
         }
