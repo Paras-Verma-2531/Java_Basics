@@ -9,7 +9,7 @@ public class ArithmeticException {
             e.printStackTrace();// gives complete information about the exception
             System.out.println(e);// 2nd method
             System.out.println(e.getMessage());// 3rd method
-            
+
 
         }
     }
