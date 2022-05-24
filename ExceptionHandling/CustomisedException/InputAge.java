@@ -1,5 +1,7 @@
 package ExceptionHandling.CustomisedException;
-
+/*
+it is highly recommended exte nding customised exception as UncheckedException because compiler will raise unreported error with checked Exception
+ */
 public class InputAge {
     public static void main(String[] args) {
         int age = Integer.parseInt(args[0]);
