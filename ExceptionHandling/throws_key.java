@@ -7,6 +7,7 @@ public class throws_key {
         can only be used for checked Exceptions
         with unchecked Exception there is no impact..
         it only convience the compiler and hence does not prevent abnormal termination.
+        it is only valid at method level and constructor level not at class level
          */
     }
 }
