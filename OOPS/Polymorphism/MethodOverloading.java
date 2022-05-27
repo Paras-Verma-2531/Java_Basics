@@ -25,6 +25,10 @@ public class MethodOverloading {
     {
         System.out.println("string buffer obj");
     }
+    public void m1(int... a)// variable length argument method(var-arg method)
+    {// can accept arguments of length 0- infinity
+        System.out.println("var arg method");
+    }
 
     public static void main(String[] args) {
         MethodOverloading mo = new MethodOverloading();
@@ -37,5 +41,6 @@ public class MethodOverloading {
         // out of parent and child(object-String) :: child will get higher priority
        // mo.m1(null);// null is applicable to both object and string
        // mo.m1(null); compile time error since both string and stringBuffer are same level class thus raises ambiguity
+        mo.m1(122);// will call single int method (priority given to single int method when finds its exact match rather than var ar
     }
 }
