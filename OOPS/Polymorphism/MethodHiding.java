@@ -1,7 +1,7 @@
 package OOPS.Polymorphism;
 // In Method Hiding i,e overriding for static methods there is no overriding as method res. is done by compiler with the help of reference type
 class Parent_P
-{
+{// method hiding only applicable to static methods
     public static void m1()
     {
         System.out.println("parent");
