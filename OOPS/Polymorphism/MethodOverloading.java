@@ -21,6 +21,10 @@ public class MethodOverloading {
     {
         System.out.println("string obj");
     }
+    public void m1(StringBuffer s)
+    {
+        System.out.println("string buffer obj");
+    }
 
     public static void main(String[] args) {
         MethodOverloading mo = new MethodOverloading();
@@ -28,9 +32,10 @@ public class MethodOverloading {
         mo.m1();
         mo.m1(12);
         mo.m1(12.2);
-        mo.m1(new Object());
+        //mo.m1(new Object());
         mo.m1("paras");
         // out of parent and child(object-String) :: child will get higher priority
-        mo.m1(null);// null is applicable to both object and string
+       // mo.m1(null);// null is applicable to both object and string
+       // mo.m1(null); compile time error since both string and stringBuffer are same level class thus raises ambiguity
     }
 }
