@@ -13,6 +13,14 @@ public class MethodOverloading {
     {
         System.out.println("double arg method");
     }
+    public void m1(Object o)
+    {
+        System.out.println("object method");
+    }
+    public void m1(String s)
+    {
+        System.out.println("string obj");
+    }
 
     public static void main(String[] args) {
         MethodOverloading mo = new MethodOverloading();
@@ -20,5 +28,9 @@ public class MethodOverloading {
         mo.m1();
         mo.m1(12);
         mo.m1(12.2);
+        mo.m1(new Object());
+        mo.m1("paras");
+        // out of parent and child(object-String) :: child will get higher priority
+        mo.m1(null);// null is applicable to both object and string
     }
 }
