@@ -1,5 +1,5 @@
 package OOPS.Polymorphism;
-
+// Overloading also known as Compile time polymorphism
 public class MethodOverloading {
     public void m1()
     {
