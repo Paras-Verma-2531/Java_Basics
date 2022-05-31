@@ -37,8 +37,11 @@ public class Thread_info  {
       if we call run() method instead of start:: then it would be treated as normal method( no thread would be created)
 
       ----Significance of start method
-      1. it is used to register newly created thread with thread scheduler and all other mandatory activities.
+      1. it is used to register newly created thread with thread scheduler and perform all other mandatory activities.
       hence,without using start method, there is no chance to start new thread. hence, start method is known as heart of multithreading
-
+       2. it invokes run method
+       --------------------
+       3. overloading of run method is possible
+       but start method always call no arg method i,e run() no run(int i)**
      */
 }
