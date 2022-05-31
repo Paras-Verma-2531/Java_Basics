@@ -8,5 +8,12 @@ public class ThreadLifeCycle {
     4. once run method is completed, thread enters into dead state
     ----------
     once a life cycle of thread is started , if we try to start it again we'll be getting runtime exception (IllegalThreadState exception)
+    t.start();
+    ....
+    ....
+
+    ..
+    // if we try to restart the same thread after sometime:
+    t.start();// RuntimeException
      */
 }
