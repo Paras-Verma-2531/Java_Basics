@@ -8,6 +8,10 @@ public class threadMain {
         /*
         ex.run(); would be treated as normal method hence, no thread would be created
         // overloading is always possible but start method will always call no arg run method
+        ---------------
+       1:: if we do no override run method then thread class run method would be executed by start method which has empty implementation.
+        hence, no output::(always recommended overriding run method).
+        2:: it is not recommended overriding start method (if we override then, multithreading makes no sense)
          */
     }
 }
