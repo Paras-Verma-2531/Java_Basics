@@ -11,5 +11,10 @@ public class ThreadConstructors extends Thread{
         Thread t= new Thread(ThreadGroup g,Runnable r);
         Thread t= new Thread(ThreadGroup g,Runnable r,String name);
          */
+        System.out.println(Thread.currentThread().getName());// main thread
+        ThreadConstructors th= new ThreadConstructors();
+        System.out.println(th.getName());// child thread
+        Thread.currentThread().setName("paras verma");
+        System.out.println(Thread.currentThread().getName());// to change the name of current thread
     }
 }
