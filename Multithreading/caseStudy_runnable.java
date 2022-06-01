@@ -3,8 +3,9 @@ package Multithreading;
 public class caseStudy_runnable {
     /*
     Runnable interface approach should be used::
+   :::->::: through first method, we could not use the proper inheritance since we have already inherited one class. whereas, in the second approach we can inherit other class as well
      case study::
-     myrunnable rn = new myrunnable();
+     myRunnable rn = new myRunnable();
      Thread t= new Thread();
      Thread t2= new Thread(rn);
      1::
