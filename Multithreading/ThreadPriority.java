@@ -15,7 +15,7 @@ public class ThreadPriority extends Thread {
     public static void main(String[] args) {
         System.out.println(Thread.currentThread().getPriority());
         ThreadPriority tp = new ThreadPriority();
-        System.out.println(tp.getPriority());// would be same as its parent thread 
+        System.out.println(tp.getPriority());// would be same as its parent thread
         tp.setPriority(9);// set priority
         tp.setName("paras thread");
         System.out.println("Name of the thread is " +tp.getName()+" and its priority is "+tp.getPriority());
