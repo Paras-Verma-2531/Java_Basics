@@ -11,7 +11,7 @@ public class ThreadMainClass {
         yl.start();
         for(int i=0;i<10;i++)
         {
-            System.out.println("main thread");
+            System.out.println("main thread:");
         }
     }
 }
