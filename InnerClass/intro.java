@@ -15,5 +15,16 @@ public class intro {
 
      }
      here department depends on uni:: hence it is inner class
+     ------------------------------
+     without existing the outer class object, it is not possible to have inner class object
+     Outerclass and Innerclass shares[Has-A] relation between them.also known as composition/Aggregation.
+     [TYPES OF INNERCLASS]
+     there are 4 types of innerclass::
+     1. normal/regular innerclass
+     2. method local Innerclass
+     3. Anonymous Innerclass
+     4. Static nested Innerclass
+
+     whenever we compile a class , the .class for innerclass would be like [outer$inner.class]
      */
 }
