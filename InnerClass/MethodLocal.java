@@ -13,4 +13,24 @@ public class MethodLocal {
     best suitable---->>[wherever nested method is required, we can go for methodLocal innerclass]
 
      */
+    public void m1()
+    {
+        class inner
+        {
+            public void sum(int x,int y)
+            {
+                System.out.println("the sum is "+(x+y));
+            }
+        }
+        inner in = new inner();
+        in.sum(10,20);
+        in.sum(100,200);
+        in.sum(200,400);
+
+    }
+
+    public static void main(String[] args) {
+        MethodLocal ml =new MethodLocal();
+        ml.m1();
+    }
 }
