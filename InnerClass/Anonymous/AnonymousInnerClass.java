@@ -1,4 +1,4 @@
-package InnerClass;
+package InnerClass.Anonymous;
 public class AnonymousInnerClass {
     /*
     InnerClass without name are known as Anonymous InnerClass.
