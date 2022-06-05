@@ -9,5 +9,15 @@ public class AnonymousImpl {
             }
         };
         pop.taste();
+        System.out.println(pop.getClass().getName());
+        Popcorn pop1 = new Popcorn()
+        {
+            @Override
+            public void taste() {
+                System.out.println("honey, salty");
+            }
+        };
+        pop1.taste();
+        System.out.println(pop1.getClass().getName());
     }
 }
