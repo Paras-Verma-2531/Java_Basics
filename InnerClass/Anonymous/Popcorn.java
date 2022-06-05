@@ -1,5 +1,4 @@
 package InnerClass.Anonymous;
-
 public class Popcorn {
     public void taste()
     {
@@ -7,6 +6,6 @@ public class Popcorn {
     }
     //100 more methods
     /*
-    ;  ; ;; ;  
+    ;  ; ;; ;
      */
 }
