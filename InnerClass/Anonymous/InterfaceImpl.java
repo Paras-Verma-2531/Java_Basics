@@ -17,7 +17,7 @@ public class InterfaceImpl {
                 }
             }
             */
-        // second approach of the same:-->::
+        // second approach of the same:-->::[inside arguments]
         Thread th = new Thread(new Runnable() {
             public void run()
             {
