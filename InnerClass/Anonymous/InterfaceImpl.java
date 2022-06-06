@@ -2,7 +2,7 @@ package InnerClass.Anonymous;
 public class InterfaceImpl {
     // defining a thread by implementing runnable interface
     public static void main(String[] args) {
-        Runnable rn = new Runnable() {
+        /*Runnable rn = new Runnable() {
             public void run()
             {
                 for(int i=0;i<10;i++)
@@ -16,8 +16,23 @@ public class InterfaceImpl {
                     }
                 }
             }
-        };
-        Thread th= new Thread(rn);
-        th.start();
+            */
+        // second approach of the same:-->::
+        Thread th = new Thread(new Runnable() {
+            public void run()
+            {
+                for(int i=0;i<10;i++)
+                {
+                    System.out.println("runnable interface-->Anonymous class");
+                    try{
+                        Thread.sleep(2000);
+                    }catch (InterruptedException e)
+                    {
+                        System.out.println(e);
+                    }
+                }
+            }
+        });
+         th.start();
     }
 }
