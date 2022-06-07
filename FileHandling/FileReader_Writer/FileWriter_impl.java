@@ -2,7 +2,6 @@ package FileHandling.FileReader_Writer;
 
 import java.io.FileWriter;
 import java.io.IOException;
-
 public class FileWriter_impl {
     /*
     in order to write we can use FileWriter class:

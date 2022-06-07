@@ -1,6 +1,7 @@
 package FileHandling.FileReader_Writer;
 public class Filereader {
     /*
+    // biggest problem with FileReader is we can read only character by character
     we  can use fileReader to read character data from the file.
     -----------------------------
     constructors used in FileReader class::
