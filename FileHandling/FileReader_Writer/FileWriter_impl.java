@@ -1,4 +1,4 @@
-package FileHandling;
+package FileHandling.FileReader_Writer;
 
 import java.io.FileWriter;
 import java.io.IOException;

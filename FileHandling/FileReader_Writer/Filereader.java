@@ -1,4 +1,4 @@
-package FileHandling;
+package FileHandling.FileReader_Writer;
 public class Filereader {
     /*
     we  can use fileReader to read character data from the file.
