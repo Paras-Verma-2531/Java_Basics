@@ -16,6 +16,7 @@ public class Filereader {
     let assume abc has 1000 characters
     int size=fr.read(ch);
     here, size is 1000.
-
+-----------------------------------------------
+3. close()---> to close the file::
      */
 }
