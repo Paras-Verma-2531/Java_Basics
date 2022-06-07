@@ -20,5 +20,11 @@ public class StaticNested {
      in.m1();
      }
      }
+     ---------------------
+     types:
+     class inside a class
+     interface inside an interface
+     interface inside a class
+     class inside an interface
      */
 }
