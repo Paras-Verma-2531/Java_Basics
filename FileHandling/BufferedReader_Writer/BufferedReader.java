@@ -12,6 +12,15 @@ public class BufferedReader {
     --------------------
     Two level Buffering
     ----------------
-    BufferedWriter bw=new BufferedWriter(new BufferedWriter(new FileWriter("abc.txt"))); 
+    BufferedWriter bw=new BufferedWriter(new BufferedWriter(new FileWriter("abc.txt")));
+    ------------
+    -----------
+    methods used in BufferedWriter
+     1. write(int ch);-------> A character
+     2. write(char[] ch);-----> char array
+     3. write(String s);------> to write string data
+     4. flush()--> it gives the guarantee that all the characters have been written to the file
+     5. close()--> to close the writer
+     6. newLine()---->uses new line separator
      */
 }
