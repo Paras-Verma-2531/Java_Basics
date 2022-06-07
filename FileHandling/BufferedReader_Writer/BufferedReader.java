@@ -22,5 +22,19 @@ public class BufferedReader {
      4. flush()--> it gives the guarantee that all the characters have been written to the file
      5. close()--> to close the writer
      6. newLine()---->uses new line separator
+     -----------------------------------
+     -----------------------------------
+     BufferedReader constructors::
+     ----------------------------
+     1. BufferedReader br= new BufferedReader(reader r);
+     2.  BufferedReader br= new BufferedReader(reader r,int buffersize);
+     ========================
+     ========================
+     Methods in BufferedReader
+      1. read()--> reads character by character[ return type is int](unicode value)
+    2.int read(char[] ch)---> to read char array[ it returns no of character copied from file to array]
+    3. close()---> to close the file::
+    **4. String readLine()-->attempts to read next Line from file
+
      */
 }
