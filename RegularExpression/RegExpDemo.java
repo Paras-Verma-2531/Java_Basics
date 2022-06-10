@@ -19,7 +19,7 @@ public class RegExpDemo {
         Matcher m= p.matcher("abbabba");//{string}
         while(m.find())
         {
-            System.out.println(m.start());// prints starting index
+            System.out.println(m.start()+"....."+m.end()+"...."+m.group());// prints starting index
         }
     }
 }
