@@ -24,7 +24,7 @@ public class RegExpDemo {
     }
     /*
     A pattern object represents compiled version of Regular Expression.
-    
+
 
      */
 }
