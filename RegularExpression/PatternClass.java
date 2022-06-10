@@ -10,6 +10,11 @@ public class PatternClass {
     eg::
     Pattern p = Pattern.compile("\\s");
     String[] st= p.split("paras verma");
+    --------------
+    if we want to separate a string by "." we can use [.]
+    Pattern p = Pattern.compile("[.]);
+    String[] st= p.split("paras.verma");
+
 
      */
     public static void main(String[] args) {
