@@ -17,17 +17,18 @@ public class CharacterMatching {
     ===================================
     Predefined character Classes:
     ===================================
+    [ if we use \s(or any) compiler will treat it as escape sequence and will generate error:: therefore use \\s]
     -----------------------------------
-    9.|s ===> space character
-    10.|S ==> except space character
-    11. |d ==> any numeric digit
-    12. |D ==> except any numeric digit
-    13 .|w ==> any word  character(alphanumeric character)
-    14. |W ==> except alphanumeric character
+    9.\s ===> space character
+    10.\S ==> except space character
+    11. \d ==> any numeric digit
+    12. \D ==> except any numeric digit
+    13 .\w ==> any word  character(alphanumeric character)
+    14. \W ==> except alphanumeric character
      */
     public static void main(String[] args) {
-        Pattern p = Pattern.compile("[abc]");
-        Matcher m= p.matcher("abdcabc");
+        Pattern p = Pattern.compile("\\s");
+        Matcher m= p.matcher("abd cabc");
         while(m.find())
         {
             System.out.println(m.start());// will print the index of a,b,c if present.
