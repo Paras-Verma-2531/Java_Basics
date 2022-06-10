@@ -14,6 +14,16 @@ public class CharacterMatching {
     6.[0-9]==> any numeric digit
     7.[0-9a-zA-Z]==> any alphanumeric symbol
     8.[^0-9a-zA-Z]==> except alphanumeric character
+    ===================================
+    Predefined character Classes:
+    ===================================
+    -----------------------------------
+    9.|s ===> space character
+    10.|S ==> except space character
+    11. |d ==> any numeric digit
+    12. |D ==> except any numeric digit
+    13 .|w ==> any word  character(alphanumeric character)
+    14. |W ==> except alphanumeric character
      */
     public static void main(String[] args) {
         Pattern p = Pattern.compile("[abc]");
