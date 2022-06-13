@@ -1,5 +1,5 @@
 package ADVANCE_JAVA;
-public class Intro {
+public class Intro_01 {
     /*
     Core Java concepts can be used to deign stand-alone applications.
     Stand-alone applications include:
