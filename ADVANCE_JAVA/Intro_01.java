@@ -18,7 +18,5 @@ Advanced Java majorly include three technologies:
         2.SERVLETS
         3.JSPs
        [[The main purpose of these technologies is to develop web based applications.]]
-
-
-     */
+*/
 }
