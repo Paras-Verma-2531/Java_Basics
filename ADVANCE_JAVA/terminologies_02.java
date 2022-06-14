@@ -1,6 +1,9 @@
 package ADVANCE_JAVA;
 public class terminologies_02 {
     /*
+    ======================================
+    ROLE OF JSPs ,SERVLETS,JDBC:::
+    =======================================
     1.whenever we are required to display something to the end user::
      go for JSPs [ JAVA SERVER PAGES]// presentation logic
      JSPs are meant for view components.
@@ -14,5 +17,7 @@ public class terminologies_02 {
      3.     If the servlets require some data/ items from the database, it will contact through JDBC.
      thus, A technology require making connection between servlets and database is JDBC.
      EG: if a cook require some item from the store, he will contact someone  who will thus, fulfill his request.
+     ------------------------------
+     
      */
 }
