@@ -19,5 +19,5 @@ public class terminologies_02 {
      EG: if a cook require some item from the store, he will contact someone  who will thus, fulfill his request.
      ------------------------------
 
-     */
+    */
 }
