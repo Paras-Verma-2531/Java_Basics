@@ -18,6 +18,6 @@ public class terminologies_02 {
      thus, A technology require making connection between servlets and database is JDBC.
      EG: if a cook require some item from the store, he will contact someone  who will thus, fulfill his request.
      ------------------------------
-     
+
      */
 }
