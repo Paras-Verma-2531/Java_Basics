@@ -8,7 +8,16 @@ public class Introduction {
         : homogeneous
         : no inbuilt method
         =======================
-        
+        these problems can be solved using collections::
+          collections are growable
+          collections are Hetrogeneous
+          collections have inbuilt method.
+          ==================
+          =================
+          collection::==> whenever we are required to represent group of objects as single entity:
+          Collections framework:: it contains group of classes and interface.
+
+
 
      */
 }
