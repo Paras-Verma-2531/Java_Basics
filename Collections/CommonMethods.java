@@ -18,7 +18,17 @@ public class CommonMethods {
     [which returns iterator object:]
     Iterator iterator()
     =======================================
-
+                             Collection(I)
+                              |
+                              |----------> List(I)==>duplicates are allowed and insertion ordered is preserved.
+                              |
+                              |
+                              |
+                              |
+                              |
+                              |
+                              |
+                              |
 
      */
 }
