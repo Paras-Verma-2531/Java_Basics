@@ -11,4 +11,9 @@ public class ReturnConnection {
         // make connection
         return DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc","root","vd8DYewD@1");//url,username,passowrd
     }
+    public static void main(String[] args)throws SQLException,ClassNotFoundException {
+        Connection con=new ReturnConnection().returnConnection();
+        if(!con.isClosed())
+            System.out.println("----connection created----");
+    }
 }
