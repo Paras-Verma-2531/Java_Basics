@@ -9,7 +9,7 @@ public class ReturnConnection {
         //load the driver
         Class.forName("com.mysql.cj.jdbc.Driver");// driver name
         // make connection
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc","root","vd8DYewD@1");//url,username,passowrd
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc","root","root");//url,username,password
     }
     public static void main(String[] args)throws SQLException,ClassNotFoundException {
         Connection con=new ReturnConnection().returnConnection();
