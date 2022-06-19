@@ -16,7 +16,7 @@ public class ListInterface {
     7.int lastIndexOf(object o);
     ======================================
     Various implementation classes of List are:
-    1. ArrayList
+    1. ArrayList_imp
     2.LinkedList
     3.Stack
       |.Vector
