@@ -25,6 +25,7 @@ public class Dynamic_Input {
             ptm.setInt(4,sems);
             ptm.executeUpdate();
             in.nextLine();
+            System.out.println("       *****************************                ");
         }
         con.close();
     }
