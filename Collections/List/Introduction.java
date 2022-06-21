@@ -1,4 +1,4 @@
-package Collections;
+package Collections.List;
 public class Introduction {
     /*
        An array is an indexed of fixed no of homo data elements.

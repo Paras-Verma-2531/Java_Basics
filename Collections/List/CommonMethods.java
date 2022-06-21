@@ -1,4 +1,4 @@
-package Collections;
+package Collections.List;
 public class CommonMethods {
     /*
     1.boolean add(object o)

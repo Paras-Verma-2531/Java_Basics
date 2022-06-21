@@ -1,4 +1,4 @@
-package Collections;
+package Collections.List;
 
 public class ListInterface {
     /*
