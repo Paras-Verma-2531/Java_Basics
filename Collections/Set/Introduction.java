@@ -10,6 +10,11 @@ public class Introduction {
     Set acquires the unique property:
       -> it can hold only distinct elements
       -> elements are unordered
-      
+      =====================
+      for HashSet underline data structure is HashTable:
+      best when frequent operation is search:
+      ======================
+      for HashSet load factor/fill ratio is: 0.75
+
      */
 }
