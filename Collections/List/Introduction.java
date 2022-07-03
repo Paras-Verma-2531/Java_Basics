@@ -15,7 +15,7 @@ public class Introduction {
           ==================
           =================
           collection::==> whenever we are required to represent group of objects as single entity:
-          Collections framework:: it contains group of classes and interface.
+          Collections_class framework:: it contains group of classes and interface.
 
 
 
