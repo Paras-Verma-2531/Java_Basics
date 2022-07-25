@@ -1,7 +1,7 @@
 package ADVANCE_JAVA;
 public class Intro_01 {
     /*
-    Core Java concepts can be used to deign stand-alone applications.
+    Core Java concepts can be used to design stand-alone applications(SA).
     Stand-alone applications include:
     [Applications that require single computer for its execution]
     =======================
