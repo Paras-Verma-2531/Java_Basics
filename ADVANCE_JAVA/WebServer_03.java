@@ -6,8 +6,7 @@ public class WebServer_03 {
     1.Tomcat
     2.jetty
     3.resin
-
-    Web container is a part of web server:
+ Web container is a part of web server:
     [[web server can only run static web pages..]]
      == [[whereas to run servlets,JSPs web container is required.]]
             [[[ every web container contains two containers]]]
