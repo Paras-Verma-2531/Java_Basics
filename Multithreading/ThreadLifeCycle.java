@@ -11,7 +11,6 @@ public class ThreadLifeCycle {
     t.start();
     ....
     ....
-
     ..
     // if we try to restart the same thread after sometime:
     t.start();// RuntimeException
