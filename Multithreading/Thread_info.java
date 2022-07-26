@@ -30,7 +30,7 @@ public class Thread_info  {
       it schedules the execution of thread (order depend upon JVM to JVM)
       In Multithreading there is no guarantte for particular output.
 
-      ---->IMPORTANT<----
+                   ---->IMPORTANT<----
 
       2. Diff bw start and run method::
       start() method is used to create new thread which internally calls run method.
