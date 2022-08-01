@@ -6,6 +6,7 @@ import java.util.List;
 public class Collections_class {
     /* Collections_class is a utility class which provide all the utility functions to the program.like(sorting,searching etc)
     whereas collection is an interface which the other interfaces like list,set,queue extends
+    Collection is a framework that allows to work and manipulate with different objects.
     ------------------------------
     it defines several utility method for collection objects
     sorting
