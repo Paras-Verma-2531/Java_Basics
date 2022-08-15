@@ -22,5 +22,6 @@ public class MethodHiding {
         c.m1();
         Parent_P p1= new Child_C();
         p1.m1();// will call parent method due to reference type hence(it is not overriding)
+        // In overloading method resolution is done by compiler with the help of reference object.
     }
 }
