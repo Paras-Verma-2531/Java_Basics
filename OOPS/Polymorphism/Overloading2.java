@@ -22,6 +22,7 @@ public class Overloading2 {
         ov.m1(new Animal());
         ov.m1(new monkey());
         Animal an = new monkey();// parent reference to store child object
-        ov.m1(an);// since method res. is done by compiler therefore reference type is considered::
+        ov.m1(an);// in overloading  method res. is done by compiler, therefore reference type is considered::
+        // m1() of animal type will be called
     }
 }
