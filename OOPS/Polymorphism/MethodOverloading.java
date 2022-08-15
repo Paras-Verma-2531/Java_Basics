@@ -39,8 +39,8 @@ public class MethodOverloading {
         //mo.m1(new Object());
         mo.m1("paras");
         // out of parent and child(object-String) :: child will get higher priority
-       // mo.m1(null);// null is applicable to both object and string
+       // mo.m1(null);// null is applicable to both object and string..
        // mo.m1(null); compile time error since both string and stringBuffer are same level class thus raises ambiguity
-        mo.m1(122);// will call single int method (priority given to single int method when finds its exact match rather than var ar
+        mo.m1(122);// will call single int method (priority given to single int method when finds its exact match rather than var arg
     }
 }
