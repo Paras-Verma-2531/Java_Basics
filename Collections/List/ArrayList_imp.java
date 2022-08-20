@@ -2,7 +2,6 @@ package Collections.List;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-
 public class ArrayList_imp {
     /*
     ArrayList_imp is best when we are required to retrieve element, and it is worse when we need to continuously add data(somewhere in the middle).
@@ -24,9 +23,6 @@ public class ArrayList_imp {
         list.addAll(newlist);// to add all elements at once
         Iterator<Integer>it=list.iterator();
         while(it.hasNext())
-        {
             System.out.println(it.next());
-        }
-
     }
 }
