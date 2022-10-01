@@ -5,7 +5,5 @@ public class Singleton_main {
         SingletonImplementation instance1= SingletonImplementation.getInstance();// uses same reference
         System.out.println(instance.toString());
         System.out.println(instance1.toString());//same reference
-
-
     }
 }
