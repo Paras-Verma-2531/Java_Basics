@@ -12,8 +12,8 @@ public class Singleton_intro {
     ::better memory management
     ::performance is improved
              ----this is the central idea for Singleton classes---
-             Singleton classes can't be created using public constructor[becoz if one can call cons. he can create as many objects he wants]
-             therefore factory methods are used to create object for singleton class
+             Singleton classes can't be created using public constructor [becoz if one can call cons. he can create as many objects he wants]
+             therefore factory methods are used to create object for singleton class.
              eg:getRuntime()[factory method]
 
      */
