@@ -7,6 +7,8 @@ public class Comparator_interface {
     /*
      Comparator interface is present in java.util package, it defines 2 methods:
      // whenever we are required to go with customized sorting: go with Comparator[sorting in descending order]
+     we only need to provide implementation for compare method becoz equals method implementation is provided by Object class[every class is a child
+     of object class]
      ====================================
      Comparable defines only single method
      :: compareTo() method
