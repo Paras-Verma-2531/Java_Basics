@@ -32,9 +32,16 @@ public class NormalRegular {
       NormalRegular ob1= new NormalRegular();
       NormalRegular.Inner inner= ob1.new Inner();
       inner.m1();
+      //3 Line for method calling
+      NormalRegular.Inner in=new NormalRegular().new Inner();
+      in.m1();
+      /*
+      Also does the same thing [ combined first 2 lines]
+       */
       new NormalRegular().new Inner().m1();
       /*
       does the same work as above [[ but shorthand notation]
+      combined 3 Line
        */
     }
 }
