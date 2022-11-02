@@ -65,4 +65,28 @@ class Outer
   new outer(). new inner().m1();
   }
   }
+  ================================
+  Nesting of Inner classes is also possible
+  -----------------------------------------------
+  class A
+  {
+  class B
+  {
+  class C
+  {
+  public void m1()
+  {
+  sopln("Inner most inner class main method");
+  }
+  }
+  }
+  ===============================
+  Object Creation
+  A a= new A();
+  A.B b= a.new B();
+  A.B.C c= b.new C();
+  c.m1();
+  --------------------------
+  --------------------------
+  new A().new B().new C().m1();
  */
