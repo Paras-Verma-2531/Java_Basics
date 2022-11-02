@@ -55,9 +55,9 @@ class Outer
   public void m1()
   {
   int x=1000;
-  sopln(x);--->1000
-  sopln(this.x)--->100
-  sopln(outer.this.x)--->10
+  sopln(x);--->1000//prints the local variable that is '1000' of x
+  sopln(this.x)--->100// current calling object i,e x of class Inner
+  sopln(outer.this.x)--->10 // prints the value of outer class x
   }
   }
   psvm(String args[])
