@@ -9,3 +9,15 @@ public class Popcorn {
     ;  ; ;; ;
      */
 }
+class SaltyPopcorn
+{
+    public static void main(String[] args) {
+        Popcorn salty=new Popcorn()
+        {
+            @Override
+            public void taste() {
+                System.out.println("Salty");
+            }
+        };
+    }
+}
