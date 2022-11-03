@@ -27,5 +27,16 @@ public class AnonymousInnerClass {
        Thread t= new Thread()
        {
        }; [Anonymous class which extends thread class like mythread extends thread]
+       ===============================
+       2.
+       Thread t= new Thread()
+       {
+       };// an anonymous class which extends Thread class
+       =======================
+       3.
+       Runnable r= new Runnable()
+       {
+       };
+       ---> an anonymous class that implements runnable interface
      */
 }
