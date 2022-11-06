@@ -17,14 +17,15 @@ public class StaticNested {
     p s v m(String[] args)
     {
      inner in= new inner();
-     in.m1();
+     in.m1();//without help of outer class object
      }
      }
      ---------------------
      types:
-     class inside a class
-     interface inside an interface
-     interface inside a class
-     class inside an interface
+     =======================
+     1.class inside a class
+     2.interface inside an interface
+     3.interface inside a class
+     4.class inside an interface
      */
 }
