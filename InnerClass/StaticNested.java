@@ -62,5 +62,22 @@ public class StaticNested {
      ==========================================
 
      4.class inside an interface
+     ----------------------------------
+     if a functionality of a class is strongly associated with an interface, we cannot use class without interface then we can go
+     for class inside an interface...
+     -------------------
+     ////////////////
+     ==================
+     interface EmailService
+     {
+     public void sendEmail(EmailDetails e);
+     //here emailDetails is only required for send email which is only required for sendEmail
+     [thus we can go for class inside an interface]
+     class EmailDetails
+     {
+     String to_list,cc_list,subject,body;....
+     }
+     }
+     =============================================
      */
 }
