@@ -24,8 +24,43 @@ public class StaticNested {
      types:
      =======================
      1.class inside a class
+     ---------------------------
+     [whenever object creation of one is not possible without existing another] {department without university is not poss.}
+     ===========================================[Normal Regular Inner class [  class uni{class dept{}} ]
      2.interface inside an interface
+     ---------------------------------
+     we can declare interface inside another. example given below:
+     A map is a group of key value pairs which itself is known as Entry:: therefore existence of entry is not possible without map:
+     [!!![[[[[!!!]]]]]!!!]
+     interface Entry is defined inside Map
+     interface Map
+     {
+     interface Entry
+     {
+     ::
+     }
+     }
+
      3.interface inside a class
+     --------------------------------------------
+     within a class multiple implementation of interface is required and all these classes are bound to single class
+     then we can go for interface inside a class
+     [
+     class vehicleTypes
+     {
+     interface vehicle
+     {
+     public int getNoOfTyres();
+     }
+     class Bus implements vehicle
+     {
+     public int getNoOfTypres(){return 6;}
+     }
+     ..................several vehicles types classes.......//////
+     }
+     ]
+     ==========================================
+
      4.class inside an interface
      */
 }
