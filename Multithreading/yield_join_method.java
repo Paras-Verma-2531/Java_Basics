@@ -5,8 +5,8 @@ public class yield_join_method extends Thread {
     ==============================
     -----------------------------
     1.yield()   :: public static native void yield();[prototype]
-    2.join()    :: public final void join();// join(long ms);/join(long ms,int ns);
-    3.sleep()
+    2.join()    :: public final void join() throws InterruptedException;// join(long ms) `` ;/join(long ms,int ns) ``;
+    3.sleep()   ::public static native void sleep(long ms);// public static void sleep(long ms,int ns) both throws IE;
     ===================================================================================================
     :: yield() method:-->:
     it pauses the current working thread to give chance to waiting threads of same priority
@@ -26,6 +26,17 @@ public class yield_join_method extends Thread {
      [ the thread which wants to wait should call join method]]
      suppose thread t2 has to wait for t1 then t2 should call t1.join();// waits for thread 1
      ---------------------------------------------------------
+     =========================================================================================================
+     3. sleep method():
+     -------------------------------
+     if a thread don't want to perform anything for particular amount of time [ then we can go for sleep method ].
+     whenever our thread want to pass particular amount of time then go sleep() method
+     eg: sliderotator
+     while(i++<=10)
+     {
+     sopln(i+" slide");
+     Thread.sleep(1000);
+
      */
     public void run()
     {
