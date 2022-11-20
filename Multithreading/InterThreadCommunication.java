@@ -21,7 +21,7 @@ public class InterThreadCommunication {
        [thread will enter into waiting state]
      --------------------------------------------------------
    ============================================================================
-     2.notify method():: thread whose job is to update should call notify method(responsible for updation)
+     2.notify method():: thread whose job is to update should call notify method(responsible for update)
      [waiting threads get the notification and continue it's execution with updated values]
      */
 }
