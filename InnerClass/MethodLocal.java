@@ -17,7 +17,7 @@ public class MethodLocal {
 
     best suitable---->>[wherever nested method is required, we can go for methodLocal innerclass]
     ::::--->we can access both the static and non-static variables from methodLocal innerclass if a method is instance method.
-    ::--> bu if the method is static, we will be getting some compile time error.
+    ::--> but if the method is static, we will be getting some compile time error.
 
      */
     public void m1()
