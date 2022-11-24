@@ -1,6 +1,18 @@
 package Collections.Set;
 public class Introduction {
     /*
+    Collection
+        |
+        |
+       Set[interface]
+       /  \
+      /     \---> SortedSet [ Interface]
+      |              |
+      |              |
+      |              TreeSet{class}
+      HashSet{classes}
+      LinkedHashSet
+    
     Set is an interface which implements collections.
     Set is implemented by following classes;
     :TreeSet
