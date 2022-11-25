@@ -7,6 +7,7 @@ public class try_catch {
         try {// try-catch cannot be used without curly brackets
             System.out.println(10 / 0);
         }
+       // System.out.println(10 / 0); ANYTHING BW TRY-CATCH-FINALLY IS NOT ALLOWED
         catch(Exception e)
         {
             System.out.println(e);
