@@ -8,7 +8,8 @@ public class Intro_01 {
     1.GUI  applications[ desktop applications]
     2.CUI applications[ character user interface, console based applications ]
     ======================================
-    Sometimes, we may require building web applications. for which knowledge of core java is not sufficient. Therefore, advanced java concepts
+    Sometimes, we may require building web applications.
+    for which knowledge of core java is not sufficient. Therefore, advanced java concepts
     are mandatory for Web based applications.
     like :: websites, servers etc
 ==============================================
