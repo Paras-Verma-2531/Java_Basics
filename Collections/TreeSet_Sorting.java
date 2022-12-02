@@ -26,9 +26,9 @@ public class TreeSet_Sorting {
         });
         Student st1=new Student("paras",78);
         Student st2=new Student("Akshita",79);
-        Student st3=new Student("Aparna",77);
+        Student st3=new Student("Aparna",80);
         Student st4=new Student("Harsh",76);
-        Student st5=new Student("Palash",80);
+        Student st5=new Student("Palash",81);
         tr.add(st1);
         tr.add(st2);
         tr.add(st3);
