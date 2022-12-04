@@ -6,7 +6,8 @@ public class StaticBlock {
     rules for the order of execution of the static block:
     [--------------------------------------------------]
     1.Identification of static members from top to bottom :: here variables are in [RIWO] if used directly may lead to CT error
-    STEPS [1-6]
+    STEPS [1-6]:: calling a variable inside function is indirect read whereas outside it, calls direct read which may throw compile time
+    error if variable is in RIWO state:
     2. Execution of static member assignments and static blocks from top to bottom [ R&W] :: STEPS[ 7-12]
     3.Execution of main method  :steps [13-15]
 
