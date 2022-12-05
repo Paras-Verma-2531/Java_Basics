@@ -3,7 +3,7 @@ public class WebServer_03 {
     /*
     web server: Web Servers provide environment to run web applications.
     ===>>example of web servers:
-    1.Tomcat
+    1.Tomcat apache
     2.jetty
     3.resin
  Web container is a part of web server:
