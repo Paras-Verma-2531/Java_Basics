@@ -74,7 +74,7 @@ class Outer
   {
   class C
   {
-  
+
   public void m1()
   {
   sopln("Inner most inner class main method");
