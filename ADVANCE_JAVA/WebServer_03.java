@@ -10,7 +10,7 @@ public class WebServer_03 {
     [[web server can only run static web pages..]]
      == [[whereas to run servlets,JSPs web container is required.]]
             [[[ every web container contains two containers]]]
-                      1. Servlets engine/container----> responsible to manage servlets components.
-                      2. JSP engine/container---------> responsible to manage JSPs components.
+                      1. Servlets engine/container---->    responsible to manage servlets components.
+                      2. JSP engine/container--------->    responsible to manage JSPs components.
 */
 }
