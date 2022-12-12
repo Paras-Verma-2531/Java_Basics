@@ -16,3 +16,4 @@ public class DeadLock_durga extends Thread {
        d.m1();
     }
 }
+
